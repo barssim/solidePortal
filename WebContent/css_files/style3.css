@@ -1,0 +1,55 @@
+.clearfix:after, .row:after {content:"."; display:block; height:0; clear:both; visibility:hidden;}*
+.clearfix, .row {display:inline-block;}
+ .clearfix, .row {display:block;}
+ .row {position:relative; margin-left:-20px;}
+ .gu1 .row {width: 122px;}
+ .gu2 .row {width: 244px;}
+ .gu3 .row {width: 366px;}
+ .gu4 .row {width: 488px;}
+ .gu5 .row {width: 610px;}
+ .gu6 .row {width: 732px;}
+ .gu7 .row {width: 854px;}
+ .gu8 .row {width: 976px;}
+ .gu9 .row {width: 1098px;}
+ .gu10 .row {width: 1220px;}
+ .col {padding-left:20px; float:left; position:relative;}
+ .gu1{width: 102px;}
+ .gu2{width: 224px;}
+ .gu3{width: 346px;}
+ .gu4{width: 468px;}
+ .gu5{width: 590px;}
+ .gu6{width: 712px;}
+ .gu7{width: 834px;}
+ .gu8{width: 956px;}
+ .gu88{width: 934px;}
+ .gu9{width: 1078px;}
+ .gu10{width: 1200px;}
+ .link{color: #61afff;font-weight:bold;text-decoration: none;}
+ .link:hover{color: #61afff;}
+ .headerlink{font-size: 11px;}
+ .headerlink span{color: #61afff;line-height: 30px;text-transform:uppercase;}
+ .headerlink .spanright{float: right;}
+ .backp{background-color: #61afff;font-weight: 600;color: #FFFFFF;border: none !important;text-align: left !important;font-size: 9px !important;padding: 3px 3px 0px 5px;margin-bottom: 8px;height: 68px;}
+ .pgratuit{font-size: 24px !important;font-weight: bold;color: #61afff;border: 3px solid #61afff !important;padding: 7px 0 7px 0 !important;}
+ .pdepose{height: 65.4px;background-color: #ff80ff;border:none !important;color: #FFF;font-size: 22.32px !important;font-weight: bold;text-transform: uppercase;line-height: 30px; padding: 9px 0 9px 0 !important; margin-top: -5px;}
+ .ptw{height: 30px; background: #00acee; padding: 0 !important; color: #FFF; margin: 0; border: none !important; line-height: 34px; font-size: 14.28px !important;}
+ .pg{height: 30px; background: #dd4b38; padding: 0 !important; color: #FFF; margin: 0; border: none !important; line-height: 34px; font-size: 14.28px !important;}
+ .pfb{height: 30px; background: #3c5a96; padding: 0 !important; color: #FFF; margin: 0; border: none !important; line-height: 34px; font-size: 14.28px !important;}
+ .aville{font-size: 17px; margin-top: 10px; letter-spacing: 1px;}
+ .vert{background:#ff80ff;color: #FFF;font-size: 15px;padding-left: 20px; height: 40px; margin-left: 20px; line-height: 40px;}
+ .pdjaj{padding: 0px !important;font-size: 100% !important;}
+ .flink{color: #FFF;text-decoration: none;}
+ .backp font{font-size: 15.39px !important;}
+ .pictoh{display: inline-block; background: #61afff; font-family: 'Ubuntu'; height: 71px; width: 73px; margin-right: 10px; padding-bottom: 2px;}
+ .pictoh.active{background: #ff80ff;}
+ .pictoh a{display: block; text-decoration: none; color: #fff;}
+ .pictoh a span, .pictoh a img{display: block;}
+ .pictoh a img{height: 50px; width: auto; margin: 0px auto;}
+ .pictoh a span{font-size: 16px; font-weight: 400; color: #fff;text-align: center; width: 100%; border-top:1px solid #fff;}
+ .pictoh.last{margin-right: 0px;}
+ .pictoh:hover{background: #ff80ff;}
+ .contactla{border: 2px solid #61afff;padding:34px 0px 0px 36px;}
+ .blink a{text-decoration: none;color: #8e8d8d;font-size: 15px;}
+ .blink a:hover{color: #61afff;}
+ .linkser{color: #ff80ff;font-weight:bold;text-decoration: none;}
+ .linkser :hover{}

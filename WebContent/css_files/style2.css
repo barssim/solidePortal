@@ -1,0 +1,460 @@
+.orange {
+    background: #61afff;
+    color: #FFF;
+}
+
+.pccmt {
+    font-size: 18px !important;
+    font-weight: bold;
+    color: #FFF;
+    border: none !important;
+    background: #61afff;
+    padding: 17px 0px 12px 0px !important;
+}
+
+.search {
+    border: 1px solid #ff80ff;
+    padding: 0px 20px 0px 10px !important;
+    margin: 3px !important;
+    height: 24px !important;
+    width: 100%;
+    outline: 0 !important;
+    color: #61afff !important;
+    font-size: 11px !important;
+    font-weight: bold !important;
+}
+::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #61afff;
+}
+
+.orangef {
+    color: #61afff;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #61afff;
+    text-transform: uppercase;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #61afff;
+    text-transform: uppercase;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #61afff;
+    text-transform: uppercase;
+}
+
+label {
+    cursor: pointer;
+}
+
+/*input[type="checkbox"] {*/
+    /*display: none;*/
+/*}*/
+
+/*input[type="checkbox"] + label span {*/
+    /*display: inline-block;*/
+    /*width: 18px;*/
+    /*border: 1px solid;*/
+    /*height: 18px;*/
+    /*margin: -1px 8px 0 3px;*/
+    /*vertical-align: middle;*/
+    /*background: url('../images/checkbox.png') left top no-repeat;*/
+    /*cursor: pointer;*/
+/*}*/
+
+/*input[type="checkbox"]:checked + label span {*/
+    /*background: url('../images/checkbox.png') -18px top no-repeat;*/
+/*}*/
+
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"], input[type="siret"], input[type="phone"], input[type="number"] {
+    border: 1px solid #61afff;
+    padding-left: 10px;
+    background: #FFF;
+    height: 16px;
+    width: 188px;
+    outline: 0;
+    font-family: 'ubuntu';
+    font-weight: bold;
+}
+
+input[type="submit"],button[type="submit"] {
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 100px;
+    background: #61afff;
+    border: none;
+    width: 121px;
+    height: 30px;
+    color: #FFF;
+    margin-bottom: 20px;
+    font-size: 11px;
+    font-weight: bold;
+
+}
+
+input[type=submit]:active, button[type="submit"]:active, input[type=submit]:hover, button[type="submit"]:hover{
+    background: #ff80ff;
+}
+
+textarea {
+    border: 1px solid #61afff;
+    padding: 10px;
+    margin: 3px;
+    background: #FFCE96;
+    height: 170px;
+    width: 388px;
+    outline: 0;
+    color: #000;
+    font-size: 13px;
+    font-weight: bold;
+    resize: none;
+}
+
+.contactla label {
+    line-height: 14px;
+    vertical-align: top;
+    font-size: 13px;
+    font-weight: bold;
+    color: #61afff;
+}
+
+.nvm {
+    border: 1px solid #61afff;
+    width: 146px;
+    padding: 10px 0px 10px 28px;
+    color: #61afff;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: none;
+}
+
+.bins {
+    padding: 26px 0 0px 176px;
+    border: 1px solid #61afff;
+    color: #61afff;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+select {
+    font-family: inherit;
+    border: 1px solid #ff80ff;
+    padding-left: 10px;
+    margin: 0;
+    /*-webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;*/
+    color: #61afff;
+    font-size: 11px;
+    font-weight: bold;
+    outline: none;
+    display: inline-block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    text-overflow: '';
+    text-indent: 0.01px;
+    /*cursor:pointer;*/
+    height: 25.5px;
+}
+
+select, input, button {
+    padding: 3px;
+    margin: 0;
+    /* -webkit-border-radius:4px;
+     -moz-border-radius:4px;
+     border-radius:4px;*/
+    -webkit-box-shadow: 1px 2px 1px #E2E2E2, 0 -1px #fff inset;
+    -moz-box-shadow: 1px 2px 1px #E2E2E2, 0 -1px #fff inset;
+    box-shadow: 1px 2px 1px #E2E2E2, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color: #888;
+    border: none;
+    outline: none;
+    display: inline-block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /*cursor:pointer;*/
+}
+
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    select {
+        padding-right: 18px
+    }
+}
+
+.djaj {
+    position: relative;
+    padding-left: 21px;
+}
+
+.djaj:after {
+    content: '<';
+    color: #61afff;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    right: 34px;
+    top: -1px;
+    padding: 0 0 2px;
+    position: absolute;
+    pointer-events: none;
+}
+
+.djaj:before {
+    border-left: 1px solid #ff80ff;
+    content: '';
+    right: 28px;
+    top: -4px;
+    width: 20px;
+    height: 19px;
+    position: absolute;
+    pointer-events: none;
+    display: block;
+}
+
+/*.djaj2 {*/
+    /*position: inherit;*/
+/*}*/
+/*
+.djaj2:after {
+    content: '<>';
+    color: #61afff;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    right: 33px;
+    top: -1px;
+    padding: 0 0 2px;
+    position: absolute;
+    pointer-events: none;
+}*/
+/*.djaj2:after {*/
+    /*content: '<>';*/
+    /*color: #61afff;*/
+    /*-webkit-transform: rotate(-90deg);*/
+    /*-moz-transform: rotate(-90deg);*/
+    /*-ms-transform: rotate(-90deg);*/
+    /*transform: rotate(-90deg);*/
+    /*right: 6px;*/
+    /*top: -6px;*/
+    /*padding: 0 0 2px;*/
+    /*position: absolute;*/
+    /*pointer-events: none;*/
+/*}*/
+/*
+.djaj2:before {
+    border-left: 1px solid #61afff;
+    content: '';
+    right: 28px;
+    top: -1px;
+    width: 20px;
+    height: 19px;
+    position: absolute;
+    pointer-events: none;
+    display: block;
+}*/
+/*.djaj2:before {*/
+    /*border-left: 2px solid #61afff;*/
+    /*content: '';*/
+    /*right: 3px;*/
+    /*top: -4px;*/
+    /*width: 20px;*/
+    /*height: 22px;*/
+    /*position: absolute;*/
+    /*pointer-events: none;*/
+    /*display: block;*/
+/*}*/
+/*.djaj2 select {
+    border: 2px solid #61afff;
+    padding-left: 10px;
+    margin: 0;
+    *//*-webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;*//*
+    background: #FFF;
+    color: #61afff;
+    font-size: 11px;
+    font-weight: bold;
+    outline: none;
+    display: inline-block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    *//*cursor: pointer;*//*
+    height: 26px;
+    width: 205px;
+}*/
+.djaj2 select{
+    border: 1px solid #61afff;
+    padding-left: 10px;
+    margin: 0;
+    background: #FFF;
+    color: #61afff;
+    font-size: 11px;
+    font-weight: bold;
+    outline: none;
+    display: inline-block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+     cursor: pointer;
+    height: 26px;
+    width: 205px;
+    padding-right: 0px;
+}
+
+.djaj2 input{
+    border: 1px solid #61afff;
+    padding-left: 10px;
+    margin: 0;
+    background: #FFF;
+    color: #61afff;
+    font-size: 11px;
+    font-weight: bold;
+    outline: none;
+    display: inline-block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    height: 18px;
+    width: 191px;
+    padding-right: 0px;
+}
+
+
+.djaj3 {
+    position: relative;
+    margin-right: 10px;
+}
+
+.djaj3:after {
+    content: '<';
+    color: #61afff;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    right: 9px;
+    top: 2px;
+    padding: 0 0 2px;
+    position: absolute;
+    pointer-events: none;
+}
+
+.djaj3:before {
+    border-left: 1px solid #61afff;
+    content: '';
+    right: 0px;
+    top: 3px;
+    width: 20px;
+    height: 19px;
+    position: absolute;
+    pointer-events: none;
+    display: block;
+}
+
+.djaj3 select {
+    border: 1px solid #61afff;
+    padding-left: 10px;
+    margin: 0;
+    /* -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+     border-radius: 4px;*/
+    background: #FFF;
+    color: #61afff;
+    font-size: 11px;
+    font-weight: bold;
+    outline: none;
+    display: inline-block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /*cursor: pointer;*/
+    height: 26px;
+    width: 233px;
+}
+
+.djaj4 {
+    position: relative;
+    margin-right: 10px;
+}
+
+.djaj4:after {
+    content: '<>';
+    font: 11px "Ubuntu", monospace;
+    color: #61afff;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    right: 8px;
+    top: 0px;
+    padding: 0 0 2px;
+    border-bottom: 1px solid #61afff;
+    position: absolute;
+    pointer-events: none;
+}
+
+.djaj4:before {
+    content: '';
+    right: 6px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    /*background:#f8f8f8;*/
+    position: absolute;
+    pointer-events: none;
+    display: block;
+}
+
+.djaj4 select {
+    border: 2px solid #61afff;
+    padding-left: 10px;
+    margin: 0;
+    /*-webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;*/
+    background: #FFF;
+    color: #61afff;
+    font-size: 11px;
+    font-weight: bold;
+    outline: none;
+    display: inline-block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /*cursor: pointer;*/
+    height: 26px;
+    width: 233px;
+}
+textarea#laferraille_userbundle_boutique_adresse {
+						height: 50px;
+								}
+								
+input#fos_user_registration_form_age {
+background: #fff;
+width: 195px;
+border: 1px solid #61afff;
+color: #61afff;
+font-weight: bold;
+}
+
+input#fos_user_resetting_form_plainPassword_second {
+margin-left: 65px;
+}
+
+

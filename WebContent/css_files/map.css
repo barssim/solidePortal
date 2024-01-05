@@ -1,0 +1,59 @@
+img{border:none;}
+.map{
+	width: 583px;
+	height: 583px;
+	background: url("../images/carte-maroc-regions.png") left top no-repeat;
+	position: relative;
+}
+.map .overlay{
+	width: 583px;
+	height: 583px;
+	background: url("../images/carte-maroc-regions.png") 583px top no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.map img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+/*overlay tooltip*/
+.map area[data-tooltip]:link, area[data-tooltip]:visited {
+	position: relative;
+	text-decoration: none;
+	border-bottom: solid 1px;
+    display: inline-block;
+    z-index: 600;
+    font-size: 14px;
+}
+
+.map area[data-tooltip]:before {
+	content: "";
+	position: absolute;
+	visibility: hidden; 
+    width: 0;
+    height: 0;
+}
+.map area[data-tooltip]:after {
+	content: attr(data-tooltip);
+	position: absolute;
+	color: white;
+	background: rgba(0,0,0,0.7);
+	padding: 5px 15px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 0px;
+	white-space: nowrap;
+	visibility: hidden;
+}
+.map area[data-tooltip]:hover:before, area[data-tooltip]:hover:after {
+	visibility: visible;
+	-moz-transition: visibility 0s linear .3s;
+}
+.map area[data-tooltip].active:before, area[data-tooltip].active:after {
+	visibility: visible;
+	-moz-transition: visibility 0s linear .3s;
+}
