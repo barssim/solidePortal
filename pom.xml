@@ -7,17 +7,12 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<dependencies>
-		<!-- <dependency> -->
-		<!-- <groupId>ma.solide</groupId> -->
-		<!-- <artifactId>solide</artifactId> -->
-		<!-- <version>0.0.1</version> -->
-		<!-- <scope>compile</scope> -->
-		<!-- </dependency> -->
 		<dependency>
-			<groupId>ma.solide</groupId>
+			<groupId>myjars</groupId>
 			<artifactId>solide</artifactId>
+			<scope>system</scope>
 			<version>0.0.1</version>
-			<scope>compile</scope>
+			<systemPath>${basedir}/libs/myjars/solide/0.0.1/solide-0.0.1.jar</systemPath>
 		</dependency>
 	</dependencies>
 	<build>
