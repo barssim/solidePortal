@@ -24,18 +24,17 @@ jobs:
 #      - name: Unit Tests
 #        run: mvn -B test --file pom.xml
             
-      - name: Cache Maven local repository 
-        id: cache-maven 
-        uses: actions/cache@v3 
-        with: 
-          path: ~/.m2/repository 
-          key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }} 
-          restore-keys: ${{ runner.os }}-maven- 
+      - name: maven-settings
+        uses: s4u/maven-settings-action@v2
+        with:
+          servers: '[{"id": "github", "username": "barssim", "password": "${GITHUB_TOKEN_REF}"}]'
+          githubServer: false
          
       - name: Build with Maven
-        run: mvn clean package --file pom.xml
-        env: 
-          GH_PACKAGES_TOKEN: ${{ secrets.GH_PACKAGES_TOKEN }} 
+        run: mvn clean package
+        env:  
+          GITHUB_TOKEN_REF: ${{ secrets.GH_PACKAGES_TOKEN }}   
+          
           
       - name: Build Docker Image
         uses: docker/build-push-action@v2
