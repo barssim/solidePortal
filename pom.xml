@@ -6,15 +6,11 @@
 	<artifactId>solidePortal</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-<!-- 	<properties><basedir>/var/lib/solidePortal</basedir> -->
-<!-- 	</properties> -->
 	<dependencies>
 		<dependency>
-			<groupId>myjars</groupId>
+			<groupId>ma.solide</groupId>
 			<artifactId>solide</artifactId>
-			<scope>system</scope>
 			<version>0.0.1</version>
-			<systemPath>${project.basedir}/libs/myjars/solide/0.0.1/solide-0.0.1.jar</systemPath>
 		</dependency>
 	</dependencies>
 	<build>
