@@ -15,7 +15,7 @@
                 </repository>
                 <repository>
                     <id>github</id>
-                    <url>https://github.com/barssim/solide</url>
+                    <url>https://github.com/barssim/mymavens</url>
                     <snapshots>
                         <enabled>true</enabled>
                     </snapshots>
