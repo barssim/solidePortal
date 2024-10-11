@@ -24,16 +24,10 @@ jobs:
 #      - name: Unit Tests
 #        run: mvn -B test --file pom.xml
             
-      - name: maven-settings
-        uses: s4u/maven-settings-action@v2
-        with:
-          servers: '[{"id": "github", "username": "barssim", "password": "${GITHUB_TOKEN_REF}"}]'
-          githubServer: false
-         
-      - name: Build with Maven
-        run: mvn clean package
-        env:  
-          GITHUB_TOKEN_REF: ${{ secrets.GH_PACKAGES_TOKEN }}   
+      - name: Configure GitHub Packages for Maven 
+        run: mvn --settings .github/maven-settings.xml clean install 
+        env: 
+          SOLIDE_TOKEN: ${{ secrets.SOLIDE_TOKEN }}
           
           
 #      - name: Build Docker Image
