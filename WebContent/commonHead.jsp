@@ -54,12 +54,12 @@
 			</div>
 			<div class="col gu1">
 				<!-- 					&nbsp;&nbsp;&nbsp;&nbsp;  -->
-				<a href="/solidePortal/index.jsp?language=de"><img
+				<a href="/index.jsp?language=de"><img
 					src="images/maroc.jpg" width="40%"></a>
 				<!-- 							&nbsp;&nbsp;&nbsp;&nbsp; -->
 
 
-				<a href="/solidePortal/index.jsp?language=fr"><img
+				<a href="/index.jsp?language=fr"><img
 					src="images/frensh.jpg" width="40%"></a>
 				<!-- 							</div> -->
 			</div>
@@ -102,7 +102,7 @@
 		<div class="row" style="z-index: 999;">
 			<div class="col gu1">&nbsp;</div>
 			<div class="col gu6">
-				<a href="/solidePortal/index.jsp"> <span
+				<a href="/index.jsp"> <span
 					style="font-size: 35px; letter-spacing: normal; position: relative; top: 0px; text-align: center;"
 					data-tag="whatWeDo"></span><br> <span
 					style="font-size: 20px; letter-spacing: normal; position: relative; top: 0px; text-align: center;"

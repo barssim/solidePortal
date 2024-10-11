@@ -47,11 +47,11 @@
 							data-tag="whoAreWe"></label></a>&nbsp;&nbsp;&nbsp;&nbsp;
 
 
-						<a href="/solidePortal/index.jsp?language=de"><img
+						<a href="/index.jsp?language=de"><img
 							src="images/maroc.jpg" width="10%"></a>&nbsp;&nbsp;&nbsp;&nbsp;
 
 
-						<a href="/solidePortal/index.jsp?language=fr"><img
+						<a href="/index.jsp?language=fr"><img
 							src="images/frensh.jpg" width="10%"></a>
 					</span>
 				</div>
@@ -95,7 +95,7 @@
 		<div class="row" style="z-index: 999;">
 			<div class="col gu1">&nbsp;</div>
 			<div class="col gu6">
-				<a href="/solidePortal/index.jsp"> 
+				<a href="/index.jsp"> 
 				<span
 					style="font-size: 35px; letter-spacing: normal; position: relative; top: 0px; text-align: center;">Vente de Carrosserie d'automobile</span><br> <span
 					style="font-size: 20px; letter-spacing: normal; position: relative; top: 0px;">24h
@@ -123,13 +123,13 @@
 			<div class="col gu1">&nbsp;</div>
 			<div class="col gu5">
 				<div class="backp">
-					<a href="commonSearchNew.jsp" title="chercher Pièce Neuve"
+					<a href="commonSearchNew.jsp" title="chercher Piï¿½ce Neuve"
 						style="font-size: 16px; letter-spacing: 2px; background-color: #99ddff;">
 						<span style="position: relative; top: 10px; color: black;"
 						data-tag="search"></span><br> <span
 						style="font-size: 25px; letter-spacing: normal; position: relative; top: 0px; color: black;"
 						data-tag="newPiece"></span>
-					</a> <a href="commonSearchOld.jsp" title="chercher Pièce d'Occasion"
+					</a> <a href="commonSearchOld.jsp" title="chercher Piï¿½ce d'Occasion"
 						style="margin-right: 0px; font-size: 16px; background-color: #99ddff;">
 						<span style="position: relative; top: 10px; color: black;"
 						data-tag="search"></span><br> <span
