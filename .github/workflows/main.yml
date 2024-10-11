@@ -25,7 +25,7 @@ jobs:
 #        run: mvn -B test --file pom.xml
             
       - name: Configure GitHub Packages for Maven 
-        run: mvn --settings .github/maven-settings.xml clean install 
+        run: mvn --settings .github/workflows/maven-settings.xml clean install 
         env: 
           SOLIDE_TOKEN: ${{ secrets.SOLIDE_TOKEN }}
           
