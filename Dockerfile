@@ -1,4 +1,4 @@
-FROM tomcat:8.0
+FROM tomcat:9-jdk8-openjdk
 	
 ENV APP_DATA_FOLDER=/var/lib/solidePortal
 ENV SOLIDEPORTAL_CONFIG=${APP_DATA_FOLDER}/config/
