@@ -11,7 +11,8 @@ RUN wget -q https://archive.apache.org/dist/tomcat/tomcat-8/v${TOMCAT_VERSION}/b
 RUN tar -xzf apache-tomcat-${TOMCAT_VERSION}.tar.gz --strip-components=1 -C ${CATALINA_HOME} 
 RUN rm apache-tomcat-${TOMCAT_VERSION}.tar.gz 
  
-COPY ./target/articleDiscover*.war /usr/local/tomcat/webapps/articleDiscover.war
+COPY ./target/solidePortal*.war $CATALINA_HOME/webapps/solidePortal.war
+COPY ./db_config/solideConfig.xml $CATALINA_HOME/conf/solideConfig.xml
 
 # Expose the default Tomcat port 
 EXPOSE 8080 

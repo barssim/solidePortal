@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<!--    mysql database -->
+        <entry key="driver">com.mysql.jdbc.Driver</entry>
+        <entry key="url">jdbc:mysql://localhost:3306/tola</entry>
+        <entry key="username">root</entry>
+        <entry key="password">tasnim2017</entry>
+        <entry key="schema">information_schema</entry>
+        <entry key="name">tola</entry>
+<!-- db2 database -->
+<!--    <entry key="driver">com.ibm.as400.access.AS400JDBCDriver</entry> -->
+<!--    <entry key="url">jdbc:as400:unide01;date format=iso;</entry> -->
+<!--    <entry key="username">db2inst1</entry> -->
+<!--    <entry key="password">passwort</entry> -->
+<!--    <entry key="schema">DB2INST1</entry> -->
+<!--    <entry key="name">cheyenne</entry> -->
+
+
+        <entry key="log4j">/home/tasnim/log4j.properties</entry>
+        <entry key="path">/home/tasnim/logs</entry>
+
+
+
+
+        <!-- Email Sender -->
+        <!-- <entry key="Emailhost">unimail.nst.gls-germany.com</entry> -->
+        <!-- <entry key="Emailport">25</entry> -->
+        <entry key="Emailhost">smtp.gmail.com</entry>
+        <entry key="Emailport">587</entry>
+        <entry key="Emailuser">qarfaoui@gmail.com</entry>
+        <entry key="Emailpass">Bouchra82</entry>
+        <entry key="EmailFromName">solide</entry>
+        <entry key="EmailFromAddress">qarfaoui@gmail.com</entry>
+   <entry key="OutputPath">/home/tasnim</entry>
+<entry key="Delimiter">   </entry>
+<entry key="Encoding">UTF-8</entry>
+<entry key="maxrecords">1000</entry>
+
+<!-- articlesPhotos path -->
+<entry key="articlesPhotosPath">/home/tasnim/articlesPhotos</entry>
+<entry key="ImagesLink">/solide/images</entry>
+
+<entry key="tmp">/home/tasnim/tmp_articlesPhotos</entry>
+
+<!-- Sets the directory user to temporarily store files that are larger than the conigured size threshold -->
+<entry key="max_Memory_Size">20967152</entry>
+  <!-- 1024*1024*2 -->
+<entry key="max_Request_Size">31465728</entry>
+ <!-- 1024*1024*3 -->
+
+</properties>
+
