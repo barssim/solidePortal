@@ -1,14 +1,19 @@
-FROM tomcat:9-jdk8-openjdk
-	
-ENV APP_DATA_FOLDER=/var/lib/solidePortal
-ENV SOLIDEPORTAL_CONFIG=${APP_DATA_FOLDER}/config/
-	
-#Move over the War file from previous build step
-WORKDIR $APP_DATA_FOLDER
-WORKDIR /usr/local/tomcat/webapps/
-COPY ./libs WORKDIR
-COPY ./target/solidePortal*.war /usr/local/tomcat/webapps/solidePortal.war
 
+# Use a base image with Java installed 
+FROM openjdk:8-jdk-alpine
 
-EXPOSE 8080
-ENTRYPOINT ["catalina.sh", "run"]
+# Set environment variables 
+ENV TOMCAT_VERSION 8.0.32 
+ENV CATALINA_HOME /usr/local/tomcat 
+# Download and install Tomcat 
+RUN mkdir -p /usr/local/tomcat 
+RUN wget -q https://archive.apache.org/dist/tomcat/tomcat-8/v${TOMCAT_VERSION}/bin/apache-tomcat-${TOMCAT_VERSION}.tar.gz
+RUN tar -xzf apache-tomcat-${TOMCAT_VERSION}.tar.gz --strip-components=1 -C ${CATALINA_HOME} 
+RUN rm apache-tomcat-${TOMCAT_VERSION}.tar.gz 
+ 
+COPY ./target/articleDiscover*.war /usr/local/tomcat/webapps/articleDiscover.war
+
+# Expose the default Tomcat port 
+EXPOSE 8080 
+# Start Tomcat 
+CMD ["sh", "-c", "$CATALINA_HOME/bin/catalina.sh run"]
