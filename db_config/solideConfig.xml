@@ -5,7 +5,7 @@
         <entry key="driver">com.mysql.jdbc.Driver</entry>
         <entry key="url">jdbc:mysql://localhost:3306/tola</entry>
         <entry key="username">root</entry>
-        <entry key="password">tasnim2017</entry>
+        <entry key="password">Tasnim2017#</entry>
         <entry key="schema">information_schema</entry>
         <entry key="name">tola</entry>
 <!-- db2 database -->

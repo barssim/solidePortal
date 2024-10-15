@@ -32,15 +32,15 @@
 <!-- 					&nbsp;&nbsp;&nbsp;&nbsp; -->
 <br>
 						<a class="link" href="QuiSommesNous.jsp">Qui sommes-nous ?</a>&nbsp;&nbsp;&nbsp;&nbsp;
-						<a href="/index.jsp?language=de"><img
+						<a href="index.jsp?language=de"><img
 							src="images/maroc.jpg" width="10%"></a>&nbsp;&nbsp;&nbsp;&nbsp;
 
 
-						<a href="/index.jsp?language=de"><img
+						<a href="index.jsp?language=de"><img
 							src="images/maroc.jpg" width="10%"></a>&nbsp;&nbsp;&nbsp;&nbsp;
 
 
-						<a href="/index.jsp?language=fr"><img
+						<a href="index.jsp?language=fr"><img
 							src="images/frensh.jpg" width="10%"></a>
 					</span>
 				</div>
@@ -78,7 +78,7 @@
 		<div class="row" style="z-index: 999;">
 			<div class="col gu5">
 
-				<a href="/index.jsp"> <span
+				<a href="index.jsp"> <span
 					style="font-size: 35px; letter-spacing: normal; position: relative; top: 0px;">Vente de Carrosserie d'automobile</span><br> <span
 					style="font-size: 20px; letter-spacing: normal; position: relative; top: 0px;">24h
 						sur 24h et pendant toutes les jours  de la semaine</span><br>
