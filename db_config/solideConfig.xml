@@ -3,7 +3,7 @@
 <properties>
 <!--    mysql database -->
         <entry key="driver">com.mysql.jdbc.Driver</entry>
-        <entry key="url">jdbc:mysql://localhost:3306/tola</entry>
+        <entry key="url">jdbc:mysql://localhost:3306/tola?characterEncoding=utf8</entry>
         <entry key="username">root</entry>
         <entry key="password">Tasnim2017#</entry>
         <entry key="schema">information_schema</entry>
