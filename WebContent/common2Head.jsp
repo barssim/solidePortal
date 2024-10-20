@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -28,25 +28,22 @@
 		<div class="row">
 			<div class="col gu3">
 				<div class="headerlink">
-					<span> <a class="link" href="Apropos.jsp">A propos</a>
-<!-- 					&nbsp;&nbsp;&nbsp;&nbsp; -->
-<br>
-						<a class="link" href="QuiSommesNous.jsp">Qui sommes-nous ?</a>&nbsp;&nbsp;&nbsp;&nbsp;
-						<a href="index.jsp?language=de"><img
-							src="images/maroc.jpg" width="10%"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+					<span> <a class="link" href="Apropos.jsp">A propos</a> <!-- 					&nbsp;&nbsp;&nbsp;&nbsp; -->
+						<br> <a class="link" href="QuiSommesNous.jsp">Qui
+							sommes-nous ?</a>&nbsp;&nbsp;&nbsp;&nbsp; <a
+						href="index.jsp?language=de"><img src="images/maroc.jpg"
+							width="10%"></a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="index.jsp"><img
+							src="images/maroc.jpg" onclick="setLanguage('ar')" width="30%"></a>
 
-
-						<a href="index.jsp?language=de"><img
-							src="images/maroc.jpg" width="10%"></a>&nbsp;&nbsp;&nbsp;&nbsp;
-
-
-						<a href="index.jsp?language=fr"><img
-							src="images/frensh.jpg" width="10%"></a>
+						<a href="index.jsp"><img src="images/frensh.jpg"
+							onclick="setLanguage('fr')" width="30%"></a>
 					</span>
 				</div>
 			</div>
-			<div class="col gu2"><img src="images/solideLogo.jpg" alt="Piece d'auto occasion"
-				width="80%"></div>
+			<div class="col gu2">
+				<img src="images/solideLogo.jpg" alt="Piece d'auto occasion"
+					width="80%">
+			</div>
 
 			<div class="col gu2">
 				<div class="headerlink">
@@ -56,7 +53,7 @@
 					<span class="spancenter"> <a class="link" href="login.jsp"><label
 							data-tag="connection"></label></a>&nbsp;&nbsp;&nbsp;&nbsp; <a
 						class="link" href="register.jsp"><label
-							data-tag="registration"></label></a> 
+							data-tag="registration"></label></a>
 					</span>
 					<%
 						} else {
@@ -64,32 +61,30 @@
 					<span class="spanright"><%=request.getSession().getAttribute("loggedInUser")%>&nbsp;&nbsp;&nbsp;&nbsp;
 						<form action="LogOutServlet" method="post">
 							<input type="submit" value="Deconnection">
-						</form> 
-						</span>
+						</form> </span>
 					<%
 						}
 					%>
 				</div>
 			</div>
-			<div class="col gu2"><img src="images/call_person.png" alt=""  width="50%"></div>
-			
+			<div class="col gu2">
+				<img src="images/call_person.png" alt="" width="50%">
+			</div>
+
 		</div>
 		<!-- end header annonce-->
 		<div class="row" style="z-index: 999;">
 			<div class="col gu5">
 
 				<a href="index.jsp"> <span
-					style="font-size: 35px; letter-spacing: normal; position: relative; top: 0px;">Vente de Carrosserie d'automobile</span><br> <span
+					style="font-size: 35px; letter-spacing: normal; position: relative; top: 0px;">Vente
+						de Carrosserie d'automobile</span><br> <span
 					style="font-size: 20px; letter-spacing: normal; position: relative; top: 0px;">24h
-						sur 24h et pendant toutes les jours  de la semaine</span><br>
+						sur 24h et pendant toutes les jours de la semaine</span><br>
 				</a>
 
 			</div>
-		
-		</div>
-	<br> <br> 
-			
-			
-		
 
+		</div>
+		<br> <br>
 </html>

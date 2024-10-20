@@ -7,51 +7,71 @@
 <jsp:include page="includeBootstrap.jsp" />
 <!--common core-->
 <%@include file="commonHead.jsp"%>
-		<!--end common core -->
+<!--end common core -->
 
 </head>
 <body>
-        <br><br>	
-<!-- 		<h3 style="color: blue;"> -->
-<!-- 		Le groupe solide:</h3> -->
-		<p>
-		<h2>
-		Le groupe solide est un <ins>solide</ins> E-commerce plattform pour vente de toute sorte de piece de carosserie d'automobile.	<br>	
-		Vous avez la possibilit&eacute de chercher dans une grande game de pieces d'origine et d'occasion.<br>	
-		Notre strategie de vente est tr&eacutes simple: <br>
-		Apr&eacutes avoir trouv&eacute la pieces souhait&eacutee, veuillez nous commander &aacute transporter la piece chez votre domicile.<br>	
-		Cette operation doit pas dur&eacute au del&agrave de 24h. <br>	
-		D&eacutes que vous recevez la piece, &aacute ce moment l&agrave vous devez regl&eacute le paiment en cash, y inclu les frais de transport.<br>	
-		le groupe solide vous donne une garantie d'une semaine de faire retourn&eacute la piece, et retenu 100% votre argent exlu les frais de transport.   <br>	
+	<br>
+	<br>
+	<!-- 		<h3 style="color: blue;"> -->
+	<!-- 		Le groupe solide:</h3> -->
+	<p>
+	<h2>
+		Le Groupe Solide est une plateforme solide de e-commerce pour la vente
+		de toutes sortes de pièces de carrosserie automobile. <br> Vous
+		avez la possibilité de chercher parmi une large gamme de pièces
+		d'origine et d'occasion. <br> 
 		</h2>
-		</p> 
+	</p>
 		
-		<h3 style="color: blue;">Livraison:</h3>
-		<p><h2>
-		 Sur Solide.ma, vous commandez et vous recevez votre envoi livr&eacute chez vous, la livraison se fait partout &agrave Rabat, Sal&eacute et Temara.<br>	
-         La livraison est assur&eacutee par notre logistique transport.<br>	
-         Le livreur ne peut assister &agrave l'ouverture du colis.<br>	
-         Les frais de livraison sont d'environ 20dhs TTC.<br>	
-         Vous pouvez aussi passer r&eacutecup&eacuterer votre commande &agrave l'un de nos depots, apr&eacutes avoir inform&eacute &agrave quel depot &ccedila se trouve.   <br>	
-        </h2>
-		</p>
-		<h3 style="color: blue;">Protocol de Reception:</h3>
-		<p>
-		<h2>
-	    Apr&eacutes avoir re&ccedilu l'envoi, le livreur vous offre un protocol de reception &agrave &ecirctre sign&eacute, il doit contenue toute les informations concernant votre commande et la date exact de reception de l'envoi.
-	    Et apr&eacutes avoir pay&eacute la pi&egravece vous recevrez un re&ccedilu de payment de la part de livreur. 	    
-		</h2>
-		</p> 
-		<h3 style="color: blue;">Retour de la pi&egravece:</h3>
-		<p>
-		<h2>
-	    Si la pi&egravece d&eacutej&agrave re&ccedilu ne conforme pas &agrave votre demande d&eacutesir&eacute, solide.ma vous offre bien sur la possibilit&eacute dans un d&eacutelai d'une semaine, de le faire retourn&eacute et re&ccedilu 100% votre argent pay&eacute.
-	    
-	    Dans ce cas la vous avez le choix ou bien: de pouvoir l'apporter &agrave l'un de nos d&eacutep&ocircts les plus proche, ou bien de commander un transport de retour chez solide.ma. Pour cet dernier service 
-	    vous devez counter pour des frais d'environ 15dh.    
-		</h2>
-		</p> 
+	<h3 style="color: blue;">Passer une commande :</h3>
+	<p>
+	<h2>
 		
-		
+		Notre stratégie de vente est très
+		simple : <br> Après avoir trouvé la pièce souhaitée, veuillez
+		passer commande pour que nous la livrions à votre domicile. <br>
+		Cette opération ne doit pas durer au-delà de 24h. <br> Dès que
+		vous recevez la pièce, vous devez régler le paiement en espèces, y
+		compris les frais de transport. <br> Le Groupe Solide vous offre
+		une garantie d'une semaine pour retourner la pièce et récupérer 100 %
+		de votre argent, à l'exception des frais de transport. <br>
+	</h2>
+	</p>
+
+	<h3 style="color: blue;">Livraison :</h3>
+	<p>
+	<h2>
+		Sur Solide.ma, vous commandez et recevez votre envoi à domicile, la
+		livraison se fait partout à Rabat, Salé et Témara. <br> La
+		livraison est assurée par notre service logistique de transport. <br>
+		Le livreur ne peut pas assister à l'ouverture du colis. <br> Les
+		frais de livraison sont d'environ 20 Dhs TTC. <br> Vous pouvez
+		également récupérer votre commande à l'un de nos dépôts, après avoir
+		été informé du dépôt où elle se trouve. <br>
+	</h2>
+	</p>
+
+	<h3 style="color: blue;">Protocole de Réception :</h3>
+	<p>
+	<h2>Après avoir reçu l'envoi, le livreur vous remet un protocole
+		de réception à signer, qui contient toutes les informations concernant
+		votre commande et la date exacte de réception de l'envoi. Après avoir
+		payé la pièce, vous recevrez un reçu de paiement de la part du
+		livreur.</h2>
+	</p>
+
+	<h3 style="color: blue;">Retour de la Pièce :</h3>
+	<p>
+	<h2>Si la pièce reçue ne correspond pas à votre demande, Solide
+		vous offre la possibilité de la retourner dans un délai d'une semaine
+		et de récupérer 100 % du montant payé. Dans ce cas, vous avez le choix
+		soit de l'apporter à l'un de nos dépôts les plus proches, soit de
+		commander un transport de retour chez Solide. Pour ce dernier
+		service, des frais d'environ 15 Dhs seront appliqués.</h2>
+	</p>
+
+
+
 </body>
 </html>

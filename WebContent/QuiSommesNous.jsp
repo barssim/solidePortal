@@ -6,24 +6,30 @@
 <head>
 <!--common core-->
 <%@include file="commonHead.jsp"%>
-		<!--end common core -->
+<!--end common core -->
 
 </head>
 <body>
-	 
-	  <br><br>	
 
-		<p>
-		<h2>
-		le groupe solide est un <ins>solide</ins> E-commerce plattform pour vente de toute sorte de piece de carosserie d'automobile.<br>
-		Vous avez la possibilité de chercher dans une grande game de pieces d'origine et d'occasion.<br>
-		Notre strategie de vente est trés simple: <br>
-		Aprés avoir trouvé la pieces souhaitée, veuillez nous commander á transporter la piece chez votre domicile.<br>
-		Cette operation doit pas duré au delà de 24h. <br>
-		Dés que vous recevez la piece, á ce moment là vous devez regler le paiment en cash, y inclu les frais de transport.<br>
-		le groupe solide vous donne une garantie d'une semaine de faire retourné la piece, et retenu 100% votre argent exlu les frais de transport.   <br>
-		</h2>
-		</p>
-		
+	<br>
+	<br>
+
+	<p>
+	<h2>
+		Le groupe Solide est une plateforme de commerce électronique solide
+		pour la vente de toutes sortes de pièces de carrosserie d'automobile.<br>
+		Vous avez la possibilité de chercher dans une large gamme de pièces
+		d'origine et d'occasion.<br> Notre stratégie de vente est très
+		simple : <br> Après avoir trouvé la pièce souhaitée, veuillez
+		nous commander pour transporter la pièce chez vous.<br> Cette
+		opération ne doit pas durer au-delà de 24 heures.<br> Dès que
+		vous recevez la pièce, vous devez régler le paiement en espèces, y
+		compris les frais de transport.<br> Le groupe Solide vous offre
+		une garantie d'une semaine pour retourner la pièce et vous récupérer
+		100 % de votre argent, hors frais de transport.<br>
+	</h2>
+	</p>
+
+
 </body>
 </html>

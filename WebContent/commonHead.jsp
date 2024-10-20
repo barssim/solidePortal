@@ -22,18 +22,7 @@
 	media="all">
 <script src='js_files/jquery.min.js'></script>
 <script src="translate.js"></script>
-<script>
-	function load() {
-		var translate = new Translate();
-		var currentLng = location.search.split('language=')[1] ? location.search
-				.split('language=')[1]
-				: 'fr';
-
-		var attributeName = 'data-tag';
-		translate.init(attributeName, currentLng);
-		translate.process();
-	}
-</script>
+<script src="js_files/script.js"></script>
 </head>
 <body onload="load()">
 	<!--header menu-->
@@ -54,14 +43,13 @@
 			</div>
 			<div class="col gu1">
 				<!-- 					&nbsp;&nbsp;&nbsp;&nbsp;  -->
-				<a href="index.jsp?language=de"><img
-					src="images/maroc.jpg" width="40%"></a>
-				<!-- 							&nbsp;&nbsp;&nbsp;&nbsp; -->
+				<a href="index.jsp"><img
+					src="images/maroc.jpg" onclick="setLanguage('ar')" width="30%"></a>
 
-
-				<a href="index.jsp?language=fr"><img
-					src="images/frensh.jpg" width="40%"></a>
-				<!-- 							</div> -->
+				<a href="index.jsp"><img
+					src="images/frensh.jpg"  onclick="setLanguage('fr')" width="30%"></a>
+					
+						
 			</div>
 			<div class="col gu2">
 				<div class="headerlink">

@@ -14,7 +14,7 @@
 		
 		<div class="loginform col gu5" style="background-color: #e6f7ff;">
 		
-				<h3><%=request.getAttribute("Message")%></h3>
+				<h3 data-tag = "<%=request.getAttribute("Message")%>"></h3>
 	
 	</div>
 	</div>
