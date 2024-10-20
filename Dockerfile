@@ -12,6 +12,7 @@ RUN tar -xzf apache-tomcat-${TOMCAT_VERSION}.tar.gz --strip-components=1 -C ${CA
 RUN rm apache-tomcat-${TOMCAT_VERSION}.tar.gz 
  
 COPY ./target/solidePortal*.war $CATALINA_HOME/webapps/solidePortal.war
+COPY ./target/solidePortal* $CATALINA_HOME/webapps/solidePortal
 COPY ./db_config/solideConfig.xml $CATALINA_HOME/conf/solideConfig.xml
 
 # Expose the default Tomcat port 
