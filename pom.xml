@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>ma.solide.solidePortal</groupId>
 	<artifactId>solidePortal</artifactId>
-	<version>0.0.1</version>
+	<version>1.0.1</version>
 	<packaging>war</packaging>
 	<distributionManagement>
 		<repository>
@@ -17,7 +17,7 @@
 		<dependency>
 			<groupId>ma.solide</groupId>
 			<artifactId>solide</artifactId>
-			 <version>1.0.1</version>
+			 <version>1.0.2</version>
 		</dependency>
 	</dependencies>
 	<build>
