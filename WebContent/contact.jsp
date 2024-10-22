@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+<!--common core-->
+<%@include file="commonHead.jsp"%>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Website Title</title>
@@ -37,7 +40,6 @@
 <body>
 
 <h1>Welcome to Solide Portal</h1>
-<p>This is a sample content area.</p>
 
 <footer>
     <div class="footer-content">

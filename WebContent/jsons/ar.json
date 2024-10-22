@@ -38,6 +38,9 @@
 	"article":  "سلعة",
 	"please_login":  "يرجى تسجيل الدخول حتى تتمكن من طلب السلعة",
 	"successfully_logged_out":  "لقد تم تسجيل خروجك بنجاح",
+	"home": "الرئيسية",
+	"contact": "اتصال",
+	"services": "خدمات",
 	"not_possible_to_change_reserved_article":  "ليس لديك إمكانية تغيير سلعة محجوزة."
 
 }

@@ -20,16 +20,31 @@
 	media="all">
 <link rel="stylesheet" href="css_files/last.css" type="text/css"
 	media="all">
+<link rel="stylesheet" href="css_files/menu.css" type="text/css"
+	media="all">
 <!-- 	 <link rel="stylesheet" href="css_files/footer.css"> -->
 <script src='js_files/jquery.min.js'></script>
 <script src="js_files/translate.js"></script>
 <script src="js_files/script.js"></script>
 </head>
 <body onload="load()">
+
 	<!--header menu-->
 	<!-- <form action="ChangeLangServlet" method="post"> -->
 	<div class="canvas gu9" style="background-color: #e6f7ff;">
-
+		<!-- Navigation Menu -->
+		<nav>
+		<ul>
+			<li><a href="index.jsp" data-tag="home">Home</a></li>
+			<li><a href="Apropos.jsp" data-tag="aPropos">About Us</a></li>
+			<li><a href="QuiSommesNous.jsp" data-tag="whoAreWe">Who We
+					Are</a></li>
+			<li><a href="contact.jsp" data-tag="contact">Contact</a></li> d
+			<li><a href="services.jsp" data-tag="services">Services</a></li>
+		</ul>
+		</nav>
+		<br><br>
+		<div class="col gu1">&nbsp;</div>
 		<div class="row">
 			<div class="col gu1"></div>
 			<div class="col gu2">
@@ -38,19 +53,18 @@
 							data-tag="aPropos"></label></a> <!-- 							&nbsp;&nbsp;&nbsp;&nbsp; -->
 						<br> <a class="link" href="QuiSommesNous.jsp"><label
 							data-tag="whoAreWe"></label></a> <!-- 						&nbsp;&nbsp;&nbsp;&nbsp;  -->
-						<br><br> <img src="images/call_person.png" alt="" width="30%">
+						<br> <br> <img src="images/call_person.png" alt=""
+						width="30%">
 					</span>
 				</div>
 			</div>
 			<div class="col gu1">
 				<!-- 					&nbsp;&nbsp;&nbsp;&nbsp;  -->
-				<a href="index.jsp"><img
-					src="images/maroc.jpg" onclick="setLanguage('ar')" width="30%"></a>
+				<a href="index.jsp"><img src="images/maroc.jpg"
+					onclick="setLanguage('ar')" width="30%"></a> <a href="index.jsp"><img
+					src="images/frensh.jpg" onclick="setLanguage('fr')" width="30%"></a>
 
-				<a href="index.jsp"><img
-					src="images/frensh.jpg"  onclick="setLanguage('fr')" width="30%"></a>
-					
-						
+
 			</div>
 			<div class="col gu2">
 				<div class="headerlink">
@@ -116,6 +130,6 @@
 		</div>
 
 		<br> <br>
-		
+
 		<!-- 	</form>	 -->
 </html>

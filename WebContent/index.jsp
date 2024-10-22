@@ -27,7 +27,9 @@
 						src="images/poignee.jpg" alt="images/carrosserie.jpg">
 
 				</marquee>
-			</span> <br> <a href="commonSearchNew.jsp" title="chercher Pièce Neuve"
+			</span>
+			<br>
+			 <br> <a href="commonSearchNew.jsp" title="chercher Pièce Neuve"
 				style="font-size: 16px; letter-spacing: 2px; background-color: #99ddff;">
 				<span style="position: relative; top: 10px; color: black;"
 				data-tag="search"></span><br> <span
