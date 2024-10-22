@@ -30,6 +30,8 @@
 
 <%-- 				<h3><%=request.getAttribute("Message")%></h3> --%>
 
-
+<br>
+<br>
+<jsp:include page="footer.jsp" />
 <!-- 	</div> -->
 </html>

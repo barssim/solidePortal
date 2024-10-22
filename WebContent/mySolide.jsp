@@ -4,19 +4,21 @@
 <html>
 <!--common core-->
 <%@include file="common2.jsp"%>
-		<!--end common core -->
+<!--end common core -->
 
-	<br>
-	<br>
-	<div class="row">
-		<div class="col gu2">&nbsp;</div>
-		<div class="loginform col gu5">
-		
-				<h3><%=request.getAttribute("Message")%></h3>
-	
+<br>
+<br>
+<div class="row">
+	<div class="col gu2">&nbsp;</div>
+	<div class="loginform col gu5">
+
+		<h3><%=request.getAttribute("Message")%></h3>
+
 	</div>
-	</div>
-	
+</div>
+<br>
+<br>
+<jsp:include page="footer.jsp" />
 
 </body>
 </html>

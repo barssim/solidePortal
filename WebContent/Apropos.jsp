@@ -20,22 +20,22 @@
 		Le Groupe Solide est une plateforme solide de e-commerce pour la vente
 		de toutes sortes de pièces de carrosserie automobile. <br> Vous
 		avez la possibilité de chercher parmi une large gamme de pièces
-		d'origine et d'occasion. <br> 
-		</h2>
+		d'origine et d'occasion. <br>
+	</h2>
 	</p>
-		
+
 	<h3 style="color: blue;">Passer une commande :</h3>
 	<p>
 	<h2>
-		
-		Notre stratégie de vente est très
-		simple : <br> Après avoir trouvé la pièce souhaitée, veuillez
-		passer commande pour que nous la livrions à votre domicile. <br>
-		Cette opération ne doit pas durer au-delà de 24h. <br> Dès que
-		vous recevez la pièce, vous devez régler le paiement en espèces, y
-		compris les frais de transport. <br> Le Groupe Solide vous offre
-		une garantie d'une semaine pour retourner la pièce et récupérer 100 %
-		de votre argent, à l'exception des frais de transport. <br>
+
+		Notre stratégie de vente est très simple : <br> Après avoir
+		trouvé la pièce souhaitée, veuillez passer commande pour que nous la
+		livrions à votre domicile. <br> Cette opération ne doit pas durer
+		au-delà de 24h. <br> Dès que vous recevez la pièce, vous devez
+		régler le paiement en espèces, y compris les frais de transport. <br>
+		Le Groupe Solide vous offre une garantie d'une semaine pour retourner
+		la pièce et récupérer 100 % de votre argent, à l'exception des frais
+		de transport. <br>
 	</h2>
 	</p>
 
@@ -67,11 +67,13 @@
 		vous offre la possibilité de la retourner dans un délai d'une semaine
 		et de récupérer 100 % du montant payé. Dans ce cas, vous avez le choix
 		soit de l'apporter à l'un de nos dépôts les plus proches, soit de
-		commander un transport de retour chez Solide. Pour ce dernier
-		service, des frais d'environ 15 Dhs seront appliqués.</h2>
+		commander un transport de retour chez Solide. Pour ce dernier service,
+		des frais d'environ 15 Dhs seront appliqués.</h2>
 	</p>
 
 
-
+	<br>
+	<br>
+	<jsp:include page="footer.jsp" />
 </body>
 </html>

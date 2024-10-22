@@ -15,10 +15,11 @@
 <!--    <entry key="password">passwort</entry> -->
 <!--    <entry key="schema">DB2INST1</entry> -->
 <!--    <entry key="name">cheyenne</entry> -->
+        
 
 
-        <entry key="log4j">/home/tasnim/log4j.properties</entry>
-        <entry key="path">/home/tasnim/logs</entry>
+        <entry key="log4j">$CATALINA_HOME/log4j.properties</entry>
+        <entry key="path">$CATALINA_HOME/logs</entry>
 
 
 
@@ -32,16 +33,16 @@
         <entry key="Emailpass">Bouchra82</entry>
         <entry key="EmailFromName">solide</entry>
         <entry key="EmailFromAddress">qarfaoui@gmail.com</entry>
-   <entry key="OutputPath">/home/tasnim</entry>
+   <entry key="OutputPath">$CATALINA_HOME/webapps/solidePortal</entry>
 <entry key="Delimiter">   </entry>
 <entry key="Encoding">UTF-8</entry>
 <entry key="maxrecords">1000</entry>
 
 <!-- articlesPhotos path -->
-<entry key="articlesPhotosPath">/home/tasnim/articlesPhotos</entry>
+<entry key="articlesPhotosPath">$CATALINA_HOME/webapps/solidePortal/articlesPhotos</entry>
 <entry key="ImagesLink">/solide/images</entry>
 
-<entry key="tmp">/home/tasnim/tmp_articlesPhotos</entry>
+<entry key="tmp">$CATALINA_HOME/webapps/solidePortal/tmp_articlesPhotos</entry>
 
 <!-- Sets the directory user to temporarily store files that are larger than the conigured size threshold -->
 <entry key="max_Memory_Size">20967152</entry>

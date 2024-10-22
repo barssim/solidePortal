@@ -4,17 +4,17 @@
 <html>
 <!--common core-->
 <%@include file="commonHead.jsp"%>
-		<!--end common core -->
-	
+<!--end common core -->
 
-	<div class="row">
-		<div class="col gu2">&nbsp;</div>
-		<div class="col gu5">
-			<form action="LogOutServlet" method="post">
-						
-		</form>
-	</div>
-	</div>
 
+<div class="row">
+	<div class="col gu2">&nbsp;</div>
+	<div class="col gu5">
+		<form action="LogOutServlet" method="post"></form>
+	</div>
+</div>
+<br>
+<br>
+<jsp:include page="footer.jsp" />
 </body>
 </html>

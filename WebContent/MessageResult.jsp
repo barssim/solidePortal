@@ -4,21 +4,23 @@
 <html>
 <!--common core-->
 <%@include file="commonHead.jsp"%>
-		<!--end common core -->
+<!--end common core -->
 
-	<br>
-	<br>
-	<br>
-	<br>
-	<div class="row" style="background-color: #e6f7ff;">
-		
-		<div class="loginform col gu5" style="background-color: #e6f7ff;">
-		
-				<h3 data-tag = "<%=request.getAttribute("Message")%>"></h3>
-	
-	</div>
-	</div>
-	
+<br>
+<br>
+<br>
+<br>
+<div class="row" style="background-color: #e6f7ff;">
 
+	<div class="loginform col gu5" style="background-color: #e6f7ff;">
+
+		<h3 data-tag="<%=request.getAttribute("Message")%>"></h3>
+
+	</div>
+</div>
+
+<br>
+<br>
+<jsp:include page="footer.jsp" />
 </body>
 </html>

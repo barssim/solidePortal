@@ -4,22 +4,25 @@
 <html>
 <!--common core-->
 <%@include file="commonHead.jsp"%>
-		
-	<br>
-	<br>
-	<br>
-	<br>
-	<div class="row">
-		<div class="col gu2">&nbsp;</div>
-		<div class="loginform col gu5">
-			<form action="Login">
-				<label for="fos_user_registration_form_civilite">Entrer votre email:</label> <input type="text" name="email" size="30px">				
-				<input type="submit" value="Rénitialiser votre mot de pass" /> 
-		</div>
-		</form>
-	</div>
-	</div>
-	</div>
 
+<br>
+<br>
+<br>
+<br>
+<div class="row">
+	<div class="col gu2">&nbsp;</div>
+	<div class="loginform col gu5">
+		<form action="Login">
+			<label for="fos_user_registration_form_civilite">Entrer votre
+				email:</label> <input type="text" name="email" size="30px"> <input
+				type="submit" value="Rénitialiser votre mot de pass" />
+	</div>
+	</form>
+</div>
+</div>
+</div>
+<br>
+<br>
+<jsp:include page="footer.jsp" />
 </body>
 </html>

@@ -72,7 +72,6 @@
 
 		}
 	}
-	
 </script>
 
 <div class="row" style="z-index: 999;">
@@ -216,5 +215,8 @@
 </div>
 
 </div>
+<br>
+<br>
+<jsp:include page="footer.jsp" />
 </body>
 </html>

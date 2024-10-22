@@ -32,6 +32,8 @@
 				<a href="register.jsp" class="link resetlink">inscrire gratuitement</a>
 		</div>
 		</form>
+		<br> <br> 
+		<jsp:include page="footer.jsp" />
 	</div>
 	</div>
 

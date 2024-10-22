@@ -20,8 +20,9 @@
 	media="all">
 <link rel="stylesheet" href="css_files/last.css" type="text/css"
 	media="all">
+<!-- 	 <link rel="stylesheet" href="css_files/footer.css"> -->
 <script src='js_files/jquery.min.js'></script>
-<script src="translate.js"></script>
+<script src="js_files/translate.js"></script>
 <script src="js_files/script.js"></script>
 </head>
 <body onload="load()">
@@ -72,11 +73,11 @@
 					<span class="spanright"><%=request.getSession().getAttribute("loggedInUser")%>
 						<form action="LogOutServlet" method="post">
 							<input type="image" src="images/deconnection.png" title=""
-								alt="Submit" width="120%">
+								alt="Submit" width="40%">
 						</form> &nbsp;&nbsp;
 						<form action="MyReservedArticlesServlet" method="post">
-							<input type="image" src="images/panier.png" alt="Submit"
-								width="120%">
+							<input type="image" src="images/shopcart.jpg" alt="Submit"
+								width="40%">
 						</form> </span>
 					<%
 						}
@@ -115,5 +116,6 @@
 		</div>
 
 		<br> <br>
+		
 		<!-- 	</form>	 -->
 </html>

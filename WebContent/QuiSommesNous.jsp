@@ -29,7 +29,9 @@
 		100 % de votre argent, hors frais de transport.<br>
 	</h2>
 	</p>
-
+	<br>
+	<br>
+	<jsp:include page="footer.jsp" />
 
 </body>
 </html>

@@ -5,15 +5,16 @@
 
 <!--common core-->
 <%@include file="commonHead.jsp"%>
+
 <br>
 <br>
 
 
-		<div class="row" style="z-index: 999;">
-			<div class="col gu1">&nbsp;</div>
-			<div class="col gu6">
-	<div class="backp">
-<!-- 		<div class="col gu6"> -->
+<div class="row" style="z-index: 999;">
+	<div class="col gu1">&nbsp;</div>
+	<div class="col gu6">
+		<div class="backp">
+			<!-- 		<div class="col gu6"> -->
 			<span> style="font-size: 35px; letter-spacing: normal;
 				position: relative; top: 0px; text-align: center;"> <marquee
 					behavior="alternate" onmouseover="stop()" onmouseout="start()">
@@ -26,9 +27,7 @@
 						src="images/poignee.jpg" alt="images/carrosserie.jpg">
 
 				</marquee>
-			</span> 
-			<br>
-			<a href="commonSearchNew.jsp" title="chercher Pièce Neuve"
+			</span> <br> <a href="commonSearchNew.jsp" title="chercher Pièce Neuve"
 				style="font-size: 16px; letter-spacing: 2px; background-color: #99ddff;">
 				<span style="position: relative; top: 10px; color: black;"
 				data-tag="search"></span><br> <span
@@ -45,10 +44,8 @@
 	</div>
 </div>
 
-
-
-
-
+<br> <br> 
+<jsp:include page="footer.jsp" />
 </div>
 
 <!--end common core -->

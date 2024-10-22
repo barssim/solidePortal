@@ -4,23 +4,26 @@
 <html>
 <!--common core-->
 <%@include file="commonHead.jsp"%>
-		<!--end common core -->
+<!--end common core -->
 
-	<br>
-	<br>
-	<br>
-	<br>
-	<div class="row" style="background-color: #e6f7ff;">
-		
-		<div class="loginform col gu5" style="background-color: #e6f7ff;">
-		
-				<h3><%=request.getAttribute("Message")%></h3>
-	
+<br>
+<br>
+<br>
+<br>
+<div class="row" style="background-color: #e6f7ff;">
+
+	<div class="loginform col gu5" style="background-color: #e6f7ff;">
+
+		<h3><%=request.getAttribute("Message")%></h3>
+
 	</div>
-	</div>
-		<form action="MyArticlesServlet" method="post">  
-        
-		<input  type="submit" value="Mes Articles">
-		</form>
+</div>
+<form action="MyArticlesServlet" method="post">
+
+	<input type="submit" value="Mes Articles">
+</form>
+<br>
+<br>
+<jsp:include page="footer.jsp" />
 </body>
 </html>
